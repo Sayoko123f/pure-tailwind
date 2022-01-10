@@ -1,0 +1,17 @@
+{
+  "name": "pure-tailwind",
+  "version": "1.0.0",
+  "description": "Tailwind css practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
