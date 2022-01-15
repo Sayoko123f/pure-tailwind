@@ -17,12 +17,30 @@
 </head>
 
 <body class="bg-[#121212] text-white">
-    <header class="">
-        <div class="text-center">
-            <h1 class="text-xl font-bold" style="letter-spacing: 1rem;">BLOGGER</h1>
+    <header class="max-w-[1920px] mx-auto">
+        <div class="text-center py-4">
+            <h1 class="text-xl font-bold relative py-2" style="letter-spacing: 1rem;">BLOGGER
+                <div class="absolute h-full flex top-2 left-0 md:left-8 lg:left-12">
+                    <input class="inline-block" type="text">
+                    <div class="h-full absolute top-0 bottom-0 -left-10 flex items-center text-gray-500 hover:text-white" role="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 lg:h-8 lg:w-8" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </div>
+                    <div class="h-full absolute top-0 bottom-0 right-0 flex items-center bg-white text-gray-500" role="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </div>
+                </div>
+            </h1>
             <h2 class="text-lg font-medium tracking-widest" style="letter-spacing: .5rem;">DESIGN</h2>
         </div>
-        <nav class="flex justify-center gap-x-0.5 md:gap-x-4 lg:gap-x-10">
+        <nav class="flex justify-center gap-x-0.5 md:gap-x-4 lg:gap-x-10 py-4">
             <a class="" href="#">HOME</a>
             <a class="" href="#">GALLERY</a>
             <a class="" href="#">PAGES</a>
@@ -34,20 +52,20 @@
     <main class="">
         <div class="">
             <div class="relative aspect-video mx-auto max-w-[1920px]">
-                <div
-                    class="absolute bg-yellow-400 top-0 bottom-0 left-0 max-w-[100px] lg:max-w-[120px] w-1/6 flex items-center justify-center">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
+                <div class="absolute bg-black group transition-all bg-opacity-0 hover:bg-opacity-20 top-0 bottom-0 left-0 max-w-[100px] lg:max-w-[120px] w-1/6 flex items-center justify-center"
+                    role="button">
+                    <span class="opacity-40 group-hover:opacity-100 transition-opacity">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                         </svg>
                     </span>
                 </div>
-                <div
-                    class="absolute bg-yellow-400 top-0 bottom-0 right-0 max-w-[100px] lg:max-w-[120px] w-1/6 flex items-center justify-center">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
+                <div class="absolute bg-black group transition-all bg-opacity-0 hover:bg-opacity-20 top-0 bottom-0 right-0 max-w-[100px] lg:max-w-[120px] w-1/6 flex items-center justify-center"
+                    role="button">
+                    <span class="opacity-40 group-hover:opacity-100 transition-opacity">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-8 md:w-8" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </span>
@@ -55,7 +73,7 @@
                 <img class="w-full h-full max-w-[1920px]" src="https://picsum.photos/id/302/1920/1080" alt="" />
             </div>
         </div>
-        <p class="xl:px-52 text-center max-w-[1920px] mx-auto">We know that you don&#39;t always have to plan things for
+        <p class="xl:px-52 text-center max-w-[1920px] mx-auto py-8">We know that you don&#39;t always have to plan things for
             a
             trip to be a great adventure. After all,
             spontaneity
@@ -64,7 +82,7 @@
             think about some things before embarking on a trip. We&#39;re all for living in the moment, but we also
             appreciate planning and getting a head start on your trip to make the most out of it.
         </p>
-        <div class="grid grid-cols-2 max-w-[1920px] mx-auto gap-y-2 md:gap-y-4 md:gap-x-2 lg:gap-y-6">
+        <div class="grid grid-cols-2 max-w-[1920px] mx-auto gap-y-2 md:gap-y-4 md:gap-x-2 lg:gap-y-8">
             <div class="flex flex-col">
                 <div class="mx-auto max-w-[800px]">
                     <img class="w-full h-full max-w-[800px]" src="https://picsum.photos/id/305/800/600" alt=""
@@ -166,7 +184,7 @@
         <div class="flex lg:px-16 min-h-[240px] gap-x-2 md:gap-x-4">
             <div class="flex items-center justify-center">
                 <div
-                    class="text-4xl border-green-700 rounded-full border-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center">
+                    class="text-4xl border-[#214037] rounded-full border-2 w-10 h-10 md:w-16 md:h-16 flex items-center justify-center">
                     &#1074;</div>
             </div>
             <div class="flex flex-col justify-center ml-6">
